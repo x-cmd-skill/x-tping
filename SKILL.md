@@ -124,5 +124,4 @@ Uses `curl` for TCP connections. On Windows and older curl versions (<8.4), uses
 
 ## Related
 
-- [Back to x-cmd Skill](../../SKILL.md)
 - [x-cmd tping module](https://x-cmd.com/mod/tping)
