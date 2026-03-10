@@ -5,15 +5,15 @@ description: |
   Uses TCP protocol with curl to establish connections.
   Supports heatmap, bar chart, and verbose output modes.
   
-  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
-  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
+  **Dependency**: This is an x-cmd module. Install x-cmd first (see x-cmd skill for installation options).
+  see x-cmd skill for installation.
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "0.0.1"
+  version: "1.0.0"
   category: x-cmd-extension
   tags: [x-cmd, network, ping, tcp, connectivity]
 ---
@@ -124,4 +124,3 @@ Uses `curl` for TCP connections. On Windows and older curl versions (<8.4), uses
 
 ## Related
 
-- [x-cmd tping module](https://x-cmd.com/mod/tping)
